@@ -1,6 +1,6 @@
 # PineSORT: A Simple Online Real-time Tracking Framework for Drone Videos in Agriculture
 
-## Abstract
+## 📝 Abstract
 We introduce PineSORT, a novel Multiple Object Tracking (MOT) system for drone-based agricultural monitoring, specifically tracking pineapples for yield estimation. Our approach tackles key challenges such as repetitive patterns, similar object appearances, low frame rates, and drone motion effects. PineSORT enhances the tracking accuracy with motion direction cost, camera motion compensation, a three-stage association strategy, and overlap management. To handle large displacements, we propose an ORB-based camera compensation technique that significantly improves the Association Accuracy (AssA). Evaluated via 5-fold cross-validation against BoTSORT and AgriSORT, PineSORT achieves statistically significant gains in our Identity-Switch Penalized IDF1 (ISP-IDF1) metric, along with gains in IDF1 (Identity F1 Score), HOTA (Higher Order Tracking Accuracy) and AssA. These results confirm its effectiveness in tracking low-FPS drone footage, making it a valuable tool for precision agriculture.
 
 
@@ -18,3 +18,6 @@ If you find this repository useful, please star ⭐ the repository and cite:
     pages     = {65-74}
 }
 ```
+
+## Acknowledgements
+We would like to express our gratitude to CeNAT (Centro Nacional de Alta Tecnología) for supporting this research through the CONARE scholarship program (Becas-CONARE), and to the CNCA (Colaboratorio Nacional de Computación Avanzada) for their support during the development of this work. We also thank the University of Costa Rica for financial support through research project C4612, and the Postgraduate Office of the Costa Rica Institute of Technology (ITCR) for their support in the publication of this work.
