@@ -19,10 +19,10 @@ def make_parser():
     parser = argparse.ArgumentParser("PineSORT for Agriculture Multiple Object Tracking")
 
     # Dataset and Evaluation Arguments
-    parser.add_argument("--path_video_imgs", default="H:/Datasets/VideoPineapple/DJI_20240308110115_0005_V/valid/images", type=str, help="Path of the images of the video.")
+    parser.add_argument("--path_video_imgs", default="./images", type=str, help="Path of the images of the video.")
 
     # Detector
-    parser.add_argument("--model_path", default="C:/Users/dnnxl/Documents/GitHub/drone-sort/weights/vertical/yolo11@DJI_0005_V_Aug@fine-tuning/best.pt", type=str, help="Object Detector weights using Ultralytics YOLO.")
+    parser.add_argument("--model_path", default="./best.pt", type=str, help="Object Detector weights using Ultralytics YOLO.")
 
     # PineSORT Arguments
     parser.add_argument("--det_thresh", type=float, default=0.40, help="Detection threshold.")
