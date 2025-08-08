@@ -12,14 +12,24 @@
   <span style="color: teal; font-family: Consolas;">PineSORT</span>: A Simple Online Real-time Tracking Framework for Drone Videos in Agriculture
 </h1>
 
+
+
+
+<div align="center">
+  <a href="https://scholar.google.com/citations?user=vipkAKEAAAAJ&hl=es" target="_blank">Danny&nbsp;Xie-Li</a><sup>1</sup> &ensp; <b>&middot;</b> &ensp;
+  <a href="https://scholar.google.com/citations?user=j02Fj8EAAAAJ&hl=en" target="_blank">Fabian&nbsp;Fallas-Moya</a><sup>2</sup> &ensp; <b></b> &ensp;
+  <br>
+  <sup>1</sup> Computer Science Department, Instituto Tecnologico de Costa Rica, Cartago, Costa Rica &emsp; <br>
+  <sup>2</sup> Atlantic Campus, Universidad de Costa Rica, Cartago, Costa Rica  &emsp;
+</div>
+
+
 <div align="center">
 <p></p>
 <a href="https://openaccess.thecvf.com/content/CVPR2025W/LXCV/html/Xie-Li_PineSORT_A_Simple_Online_Real-time_Tracking_Framework_for_Drone_Videos_CVPRW_2025_paper.html"><img 
 src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=25em></a>
 <p></p>
-
 </div>
-
 
 <p align="center">
   <img src="assets/pipeline_pinesort.jpg?raw=true" width="99.1%" />
