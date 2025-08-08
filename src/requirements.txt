@@ -1,0 +1,8 @@
+opencv-python
+numpy
+ultralytics
+matplotlib
+scipy
+lap
+pygmtools
+filterpy
